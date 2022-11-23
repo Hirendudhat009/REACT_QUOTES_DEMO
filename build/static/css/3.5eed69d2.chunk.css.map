@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "sources": [
+        "webpack://src/components/UI/Card.module.css",
+        "webpack://src/components/quotes/QuoteForm.module.css"
+    ],
+    "names": [],
+    "mappings": "AAAA,kBACE,YAAa,CACb,WAAY,CACZ,mCAAwC,CACxC,iBAAkB,CAClB,qBACF,CCNA,uBACE,iBACF,CAEA,0BACE,iBAAkB,CAClB,UAAW,CACX,WAAY,CACZ,mCAA0C,CAC1C,oBAAa,CAAb,YAAa,CACb,8BAAuB,CAAvB,sBAAuB,CACvB,0BAAmB,CAAnB,kBACF,CAEA,0BACE,mBACF,CAEA,gCACE,eAAiB,CACjB,aAAc,CACd,mBACF,CAEA,mEAEE,YAAa,CACb,cAAgB,CAChB,iBAAkB,CAClB,wBAAyB,CACzB,wBAAyB,CACzB,aAAc,CACd,UAAW,CACX,iBACF,CAEA,+EAEE,wBAAyB,CACzB,kBACF,CAEA,0BACE,gBACF,CAEA,iCACE,iBACF",
+    "file": "3.5eed69d2.chunk.css",
+    "sourcesContent": [
+        ".card {\n  padding: 1rem;\n  margin: 1rem;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);\n  border-radius: 6px;\n  background-color: white;\n}\n",
+        ".form {\n  position: relative;\n}\n\n.loading {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.7);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.control {\n  margin-bottom: 0.5rem;\n}\n\n.control label {\n  font-weight: bold;\n  display: block;\n  margin-bottom: 0.5rem;\n}\n\n.control input,\n.control textarea {\n  font: inherit;\n  padding: 0.35rem;\n  border-radius: 4px;\n  background-color: #f0f0f0;\n  border: 1px solid #c1d1d1;\n  display: block;\n  width: 100%;\n  font-size: 1.25rem;\n}\n\n.control input:focus,\n.control textarea:focus {\n  background-color: #cbf8f8;\n  outline-color: teal;\n}\n\n.actions {\n  text-align: right;\n}\n\n.actions button {\n  font-size: 1.25rem;\n}\n"
+    ]
+}
